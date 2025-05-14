@@ -1,0 +1,50 @@
+/* Estilos gerais do projeto */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa; /* Cor de fundo suave */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #2e7d32; /* Verde para destacar o título */
+  text-align: center;
+}
+
+h2 {
+  color: #388e3c; /* Verde escuro para subtítulos */
+  margin-top: 30px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: #ffffff; /* Fundo branco para seções */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para links */
+a {
+  color: #0288d1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,4 +1,4 @@
-/* Estilos gerais do projeto */
+* Estilos gerais do projeto */
 body {
   font-family: Arial, sans-serif;
   background-color: #e0f7fa; /* Cor de fundo suave */
@@ -30,21 +30,4 @@ section {
   margin-bottom: 20px;
 }
 
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-li {
-  margin-bottom: 10px;
-}
-
-/* Estilo para links, se precisar usar algum */
-a {
-  color: #0288d1;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
+/* Est

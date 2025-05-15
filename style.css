@@ -1,4 +1,4 @@
-* Estilos gerais do projeto */
+/* Estilos gerais do projeto */
 body {
   font-family: Arial, sans-serif;
   background-color: #e0f7fa; /* Cor de fundo suave */
@@ -7,27 +7,146 @@ body {
   padding: 20px;
 }
 
+/* Cabeçalho */
 h1 {
   color: #2e7d32; /* Verde para destacar o título */
   text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 h2 {
   color: #388e3c; /* Verde escuro para subtítulos */
   margin-top: 30px;
+  font-size: 2rem;
 }
 
 p {
   line-height: 1.6;
   margin-bottom: 20px;
+  font-size: 1.1rem;
 }
 
 section {
   background-color: #ffffff; /* Fundo branco para seções */
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
-/* Est
+/* Estilos para as listas */
+ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+ul li::before {
+  content: "✔️";
+  color: #2e7d32;
+  margin-right: 10px;
+}
+
+/* Estilos para imagens */
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Link de chamada para ação */
+a.cta-link {
+  display: inline-block;
+  background-color: #ff7f00;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+a.cta-link:hover {
+  background-color: #e65c00;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p, ul li {
+    font-size: 1rem;
+  }
+
+  a.cta-link {
+    font-size: 1rem;
+    padding: 8px 15px;
+  }
+
+  section {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  a.cta-link {
+    font-size: 1rem;
+    padding: 8px 12px;
+  }
+}
